@@ -2,12 +2,13 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
+
     padding: 2rem 6rem;
 }
 
 .gpt3__navbar-links{
     display: flex;
-    justify-content: space-between;
+    justify-content: flex-start;
     align-items: center;
     flex: 1;
 }
@@ -122,5 +123,13 @@
 
     .gpt3__navbar-sign {
         display: none;
+    }
+
+    .gpt3__navbar-menu_container {
+        top: 20px;
+    }
+
+    .gpt3__navbar-menu_container-link-sign {
+        display: block;
     }
 }
